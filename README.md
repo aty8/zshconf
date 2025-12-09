@@ -4,6 +4,11 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/aty8/zshconf/main/install.sh)"
 ```
 
+## Tmux config
+```bash
+curl -fsSL https://raw.githubusercontent.com/aty8/zshconf/main/tmux.conf > $HOME/.tmux.conf
+```
+
 ## Manual
 
 ```bash
