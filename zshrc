@@ -1,3 +1,5 @@
+echo "Hint: For history-substring-search, use Shift+Up and Shift+Down"
+
 # Base directory set by ~/.zshrc
 # export ZDOTDIR="$HOME/.zsh"
 

@@ -9,7 +9,11 @@ source ~/.znap/znap.zsh
 # Plugins
 znap source zsh-users/zsh-autosuggestions
 znap source zsh-users/zsh-syntax-highlighting
-znap source romkatv/gitstatus
+
+znap source zsh-users/zsh-history-substring-search
+bindkey "^[[1;2A" history-substring-search-up
+bindkey "^[[1;2B" history-substring-search-down
+
 
 # Prompt (Pure)
 znap prompt sindresorhus/pure
