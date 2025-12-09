@@ -28,3 +28,6 @@ SAVEHIST=50000
 
 # Completion
 autoload -Uz compinit && compinit -u
+
+# Enable Vim mode
+set -o vi
