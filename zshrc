@@ -29,5 +29,8 @@ SAVEHIST=50000
 # Completion
 autoload -Uz compinit && compinit -u
 
-# Enable Vim mode
+# Enable Vim mode and a few bindings that allow deleting existing chars 
+# in the insert mode.
 set -o vi
+bindkey "^H" backward-delete-char
+bindkey "^?" backward-delete-char
